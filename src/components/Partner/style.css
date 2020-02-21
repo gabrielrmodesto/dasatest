@@ -1,0 +1,59 @@
+
+.profilePartner{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 30px;
+	max-width: 1200px;
+	margin: 0 10%;
+	justify-content: center;
+	align-content: center;
+}
+.imgProfilePartner{
+	margin-left: 15%;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.profile{
+	position: relative;
+}
+.iconPartner{
+	position: absolute;
+	bottom: 35%;
+	left: 45%;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+#firstIcon,
+#secondIcon,
+#thirdIcon,
+#forthIcon{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+#firstIcon{
+	background-color: #FF4E50;
+}
+#secondIcon{
+	background-color: #19D4CA;
+}
+#thirdIcon{
+	background-color: #FFA710;
+}
+#forthIcon{
+	background-color: #667DF3;
+}
+.namePartner{
+	font-weight: 700;
+}
+.bioPartner{
+	font-weight: 300;
+	font-size: 0.9em;
+}
+.namePartner,.bioPartner{
+	text-align: center;
+	margin: 10px 0;
+	color: #444444;
+}
