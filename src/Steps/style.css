@@ -6,14 +6,14 @@
 	text-shadow: 1px 1px #333;
 }
 #firstStep{
-	background: url(../../assets/computer.jpg) no-repeat;
+	background: url(../assets/computer.jpg) no-repeat;
 	background-size: cover;
 }
 #secondStep{
-	background: url(../../assets/driving.jpg) no-repeat;
+	background: url(../assets/driving.jpg) no-repeat;
 	background-size: cover;
 }
 #thirdStep{
-	background: url(../../assets/feetinsand.jpg) no-repeat;
+	background: url(../assets/feetinsand.jpg) no-repeat;
 	background-size: cover;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Cards from "../../components/Cards";
+import Cards from "../components/Cards";
 
 export default function Steps() {
 	const cardItems = [

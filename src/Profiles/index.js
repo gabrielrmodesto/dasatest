@@ -1,11 +1,11 @@
 import React from "react";
-import firstProfile from "../../assets/firstProfile.jpg";
-import secondProfile from "../../assets/secondProfile.jpg";
-import thirdProfile from "../../assets/thirdProfile.jpg";
-import forthProfile from "../../assets/forthProfile.jpg";
+import firstProfile from "../assets/firstProfile.jpg";
+import secondProfile from "../assets/secondProfile.jpg";
+import thirdProfile from "../assets/thirdProfile.jpg";
+import forthProfile from "../assets/forthProfile.jpg";
 import { FaMusic } from "react-icons/fa";
 import { IoMdBrush, IoMdCamera, IoMdAirplane } from "react-icons/io";
-import Partner from "../../components/Partner";
+import Partner from "../components/Partner";
 import "./style.css";
 
 export default function Profiles() {
