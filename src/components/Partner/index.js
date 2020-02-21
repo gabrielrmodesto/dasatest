@@ -1,28 +1,36 @@
 import React from "react";
 import "./style.css";
-import firstProfile from "../../assets/firstProfile.jpg";
-import { FaMusic } from "react-icons/fa";
-import { IoMdBrush, IoMdCamera, IoMdAirplane } from "react-icons/io";
 
-export default function Partner() {
+
+export default function Partner({ partnerProfile }) {
 	return (
 		<>
 			<div className="profilePartner">
-				<div className="profile">
-					<img
-						src={firstProfile}
-						alt="Profile Partner"
-						className="imgProfilePartner"
-					/>
-					<div className="iconPartner">
-						<FaMusic id="firstIcon" />
-					</div>
+				{partnerProfile.map(
+					({
+						profileImg,
+						iconProfilePartner,
+						namePartner,
+						bioPartner
+					}) => (
+						<div className="profile">
+							<img
+								src={profileImg}
+								alt="Profile Partner"
+								className="imgProfilePartner"
+							/>
+							<div className="iconPartner">
+								{iconProfilePartner}
+							</div>
 
-					<p className="namePartner">Bradley Hunter</p>
-					<p className="bioPartner">
-						Based in Chicago. I love playing tennis and loud music.
-					</p>
-				</div>
+							<p className="namePartner">{namePartner}</p>
+							<p className="bioPartner">
+								{bioPartner}
+							</p>
+						</div>
+					)
+				)}
+{/* 
 				<div className="profile">
 					<img
 						src={firstProfile}
@@ -67,7 +75,7 @@ export default function Partner() {
 					<p className="bioPartner">
 						Based in Chicago. I love playing tennis and loud music.
 					</p>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);
