@@ -4,6 +4,9 @@ import "./style.css";
 export default function Cards({ cardItems }) {
 	return (
 		<>
+			<div className="cardTitleSection">
+				<h2>How Dreamshare</h2>
+			</div>
 			<div className="card">
 				{cardItems.map(
 					({

@@ -1,17 +1,16 @@
+.cardTitleSection{
+	color: #444444;
+	text-align: center;
+	margin: 8% 0 3% 0; 
+	letter-spacing: 3px;
+}
 .card {
 	color: #fff;
-	max-width: 1000px;
-	display: table;
-	margin-left: 15%;
-	margin-top: 10%;
-}
-.card-body{
-	display: table-cell;
-	padding: 15px;
-}
-.card-content{
+	max-width: 1100px;
 	display: grid;
-	align-self: flex-end;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+	margin-left: 10%;
 }
 .badge{
 	background-color: rgb(255, 78, 80);

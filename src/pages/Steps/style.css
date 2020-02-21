@@ -1,13 +1,17 @@
 #firstStep,#secondStep,#thirdStep{
-	height: 500px;
+	height: 100%;
 	border-radius: 10px;
+	padding: 30% 2% 3% 2%;
 }
 #firstStep{
 	background: url(../../assets/computer.jpg) no-repeat;
+	background-size: cover;
 }
 #secondStep{
 	background: url(../../assets/driving.jpg) no-repeat;
+	background-size: cover;
 }
 #thirdStep{
 	background: url(../../assets/feetinsand.jpg) no-repeat;
+	background-size: cover;
 }
