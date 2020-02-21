@@ -1,4 +1,18 @@
 .bannerImg{
-	background: url() no-repeat;
+	background: url(../../assets/friends.jpg) no-repeat;
 	background-size: cover;
+	background-position: 0vh;
+	height: 100%;
+}
+header {
+	max-width: 980px;
+}
+header div{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+}
+.headerTitle h1{
+	text-align: center;
+	color: #ffffff;
 }
