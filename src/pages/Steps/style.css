@@ -1,0 +1,13 @@
+#firstStep,#secondStep,#thirdStep{
+	height: 500px;
+	border-radius: 10px;
+}
+#firstStep{
+	background: url(../../assets/computer.jpg) no-repeat;
+}
+#secondStep{
+	background: url(../../assets/driving.jpg) no-repeat;
+}
+#thirdStep{
+	background: url(../../assets/feetinsand.jpg) no-repeat;
+}
