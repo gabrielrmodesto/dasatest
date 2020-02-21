@@ -21,8 +21,8 @@ export default function Banner() {
 			</header>
 
 			<div className="contentBanner">
-				<h1>Share Your Holiday Dream</h1>
-				<p>And find the perfect partner to fullfill it</p>
+				<p className="bigTitleBanner">Share Your<br /> Holiday Dream</p>
+				<p className="subTitleBanner">And find the perfect partner to fullfill it</p>
 				<button>Find your holiday partner</button>
 			</div>
 		</div>
