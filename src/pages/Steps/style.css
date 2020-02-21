@@ -2,6 +2,8 @@
 	height: 100%;
 	border-radius: 10px;
 	padding: 30% 2% 3% 2%;
+	opacity: 0.8;
+	text-shadow: 1px 1px #333;
 }
 #firstStep{
 	background: url(../../assets/computer.jpg) no-repeat;
