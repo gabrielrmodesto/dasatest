@@ -42,4 +42,7 @@
 		flex-direction: column;
 		grid-gap: 10px;
 	}
+	.badge{
+		font-weight: 500;
+	}
 }

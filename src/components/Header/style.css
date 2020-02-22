@@ -99,4 +99,7 @@ header div button {
 		font-size: 2.5em;
 		font-weight: 700;
 	}
+	.contentBanner{
+		padding-top: 10%;
+	}
 }

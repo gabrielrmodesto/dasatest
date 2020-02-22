@@ -41,3 +41,49 @@ footer {
 .copyrightByBrand{
 	color: rgb(255, 75, 80);
 }
+@media (max-width: 900px){
+	.contentFooter{
+		grid-gap: 30px;
+		max-width: 900px;
+		margin: 0 5%;
+	}
+	.copyright{
+		margin-left: 15%;
+	}
+}
+@media (max-width: 400px){
+	.contentFooter{
+		grid-template-columns: repeat(1,1fr);
+		max-width: 400px;
+		margin: 0 5%;
+	}
+	.brandNameFooter p{
+		text-align: center;
+	}
+	.copyright{
+		text-align: center;
+		margin-left: 0;
+	}
+	.copyrightBy{
+		margin-left: 0;
+	}
+	.footerDetailTitle{
+		text-align: center;
+	}
+	.mapSite{
+		display: flex;
+		flex-direction: row;
+	}
+	.footerMapSite{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.mapSite:first-child{
+		margin-left: 15%;
+	}
+	.mapSite:last-child{
+		margin-left: 5%;
+	}
+	.mapSite p{
+		padding: 0 15px;
+	}
+}
