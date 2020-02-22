@@ -1,29 +1,34 @@
-import React from 'react';
+import React from "react";
 import "./style.css";
 
 export default function Footer() {
 	return (
 		<>
 			<footer className="footer">
-				<div>
-					<p>Dreamshare</p>
-				</div>
-				<div>
-					<p>Company</p>
-					<div>
-						<p>About</p>
-						<p>Contact</p>
-						<p>Press</p>
+				<div className="contentFooter">
+					<div className="brandNameFooter">
+						<p>Dreamshare</p>
 					</div>
-					<div>
-						<p>Blog</p>
-						<p>Terms and Privacy</p>
-						<p>Help</p>
+					<div className="footerDetail">
+						<p className="footerDetailTitle">Company</p>
+						<div className="footerMapSite">
+						<div className="mapSite">
+							<p>About</p>
+							<p>Contact</p>
+							<p>Press</p>
+						</div>
+						<div className="mapSite">
+							<p>Blog</p>
+							<p>Terms and Privacy</p>
+							<p>Help</p>
+						</div>
+						</div>
+						
 					</div>
-				</div>
-				<div>
-					<p>Designed by</p>
-					<p>Areto Development</p>
+					<div className="copyright">
+						<p className="copyrightBy">Designed by</p>
+						<p className="copyrightByBrand">Areto Development</p>
+					</div>
 				</div>
 			</footer>
 		</>

@@ -1,5 +1,43 @@
 footer {
 	border-top: 1px solid rgb(255, 78, 80);
-	margin: 10% 0;
+	margin: 10% 0 5% 0;
 	padding-top: 30px;
+}
+.contentFooter{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	max-width: 1200px;
+	margin: 0 10%;
+}
+.brandNameFooter p{
+	color: rgb(255, 78, 80);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footerMapSite{
+	padding: 10px 0;
+	display: grid;
+	grid-template-columns: repeat(2,2fr);
+	color: #CCCCCC;
+	font-weight: 300;
+}
+.footerDetailTitle{
+	font-weight: 700;
+}
+.mapSite p{
+	padding: 5px 0;
+}
+.copyright{
+	margin-left: 50%;
+}
+.copyrightBy{
+	color: #CCCCCC;
+	font-size: 0.75em;
+	font-weight: 500;
+	margin-left: 40%;
+	text-transform: uppercase;
+}
+.copyrightByBrand{
+	color: rgb(255, 75, 80);
 }
