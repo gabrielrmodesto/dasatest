@@ -66,6 +66,9 @@ header div button {
 	text-align: center;
 }
 @media (max-width: 900px){
+	header{
+		max-width: 900px;
+	}
 	header .headerTitle{
 		grid-gap: 300px;
 	}
@@ -74,6 +77,9 @@ header div button {
 	}
 }
 @media (max-width: 400px){
+	header{
+		max-width: 400px;
+	}
 	header .headerTitle{
 		display: flex;
 		flex: 0 1;

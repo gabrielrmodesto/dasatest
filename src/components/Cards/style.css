@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	grid-gap: 10px;
-	margin-left: 10%;
+	margin: 0 10%;
 }
 .badge{
 	background-color: rgb(255, 78, 80);
@@ -25,4 +25,21 @@
 .textCard{
 	font-weight: 300;
 	font-size: 1em;
+}
+@media (max-width: 900px){
+	.card{
+		max-width: 900px;
+		margin: 0 5%;
+	}
+	.badge{
+		width: 50%;
+	}
+}
+@media (max-width: 400px){
+	.card{
+		max-width: 400px;
+		display: flex;
+		flex-direction: column;
+		grid-gap: 10px;
+	}
 }

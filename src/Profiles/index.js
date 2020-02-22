@@ -15,28 +15,32 @@ export default function Profiles() {
 			iconProfilePartner: <FaMusic />,
 			namePartner: "Bradley Hunter",
 			bioPartner:
-				"Based in Chicago. I love playing tennis and loud music."
+				"Based in Chicago. I love playing tennis and loud music.",
+			idIcon: "firstIcon",
 		},
 		{
 			profileImg: secondProfile,
 			iconProfilePartner: <IoMdBrush />,
 			namePartner: "Marie Bennett",
 			bioPartner:
-				"Currently living in Colorado. Lover of art, languages and travelling."
+				"Currently living in Colorado. Lover of art, languages and travelling.",
+			idIcon: "secondIcon",
 		},
 		{
 			profileImg: thirdProfile,
 			iconProfilePartner: <IoMdCamera />,
 			namePartner: "Diana Wells",
 			bioPartner:
-				"Living in Athene, Greece. I love black and white classics, chillout music and green tea."
+				"Living in Athene, Greece. I love black and white classics, chillout music and green tea.",
+			idIcon: "thirdIcon",
 		},
 		{
 			profileImg: forthProfile,
 			iconProfilePartner: <IoMdAirplane />,
 			namePartner: "Christopher Profile",
 			bioPartner:
-				"Star Wars fanatic. I have a persistent enthusiasm to create new things."
+				"Star Wars fanatic. I have a persistent enthusiasm to create new things.",
+			idIcon: "forthIcon",
 		}
 	];
 	return (

@@ -1,4 +1,3 @@
-
 .profilePartner{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
@@ -19,7 +18,7 @@
 }
 .iconPartner{
 	position: absolute;
-	bottom: 35%;
+	bottom: 40%;
 	left: 45%;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -29,9 +28,12 @@
 #secondIcon,
 #thirdIcon,
 #forthIcon{
+	display: block;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
+	font-size: 1.2em;
+	padding: 5px 0 0 5px;
 }
 #firstIcon{
 	background-color: #FF4E50;
@@ -56,4 +58,22 @@
 	text-align: center;
 	margin: 10px 0;
 	color: #444444;
+}
+@media (max-width: 900px){
+	.profilePartner{
+		grid-template-columns: repeat(2,1fr);
+		max-width: 900px;
+	}
+	.imgProfilePartner{
+		margin-left: 25%;
+	}
+	.iconPartner{
+		left: 55%;
+	}
+}
+@media (max-width: 400px){
+	.profilePartner{
+		grid-template-columns: repeat(1,1fr);
+		max-width: 400px;
+	}
 }
