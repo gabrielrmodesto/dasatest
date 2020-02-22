@@ -36,3 +36,28 @@
 	border-radius: 50px;
 	width: 200px;
 }
+@media (max-width: 900px){
+	.inputFormPartner{
+		width: 40%;
+	}
+}
+@media (max-width: 400px){
+	.formPartner{
+		max-width: 400px;
+		margin: 0 5%;
+		text-align: center;
+	}
+	.formTitle, .formText, form{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 10px;
+	}
+	.inputFormPartner{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.btnFormPartner{
+		padding: 5px 0;
+		margin-left: 20%;
+	}
+}
