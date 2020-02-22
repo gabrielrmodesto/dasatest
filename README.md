@@ -17,6 +17,7 @@ Teste para vaga de front end da empresa [Dasa](https://dasa.com.br/)
 * FLEXBOX
 * Javascript (React v16.12)
 * [React Icons](https://react-icons.netlify.com/#/)
+* [Imagens](https://www.pexels.com/)
 
 ## Autor
 
