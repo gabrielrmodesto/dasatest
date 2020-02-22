@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Steps from "../Steps";
 import Profiles from "../Profiles";
+import PartnerForm from "../PartnerForm";
 
 export default function Main() {
 	return (
@@ -14,6 +15,9 @@ export default function Main() {
 			</section>
 			<section className="partners">
 				<Profiles />
+			</section>
+			<section className="formPartner">
+				<PartnerForm />
 			</section>
 			<Footer />
 		</>

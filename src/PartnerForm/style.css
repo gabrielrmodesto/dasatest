@@ -1,0 +1,38 @@
+.formTitle, .formText, form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px 0;
+}
+.formTitle, .formText{
+	color: #444;
+	letter-spacing: 3px;
+}
+.formTitle{
+	font-weight: 700;
+}
+.formText{
+	font-weight: 300;
+}
+.inputFormPartner{
+	height: 40px;
+	width: 30%;
+	padding-left: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.inputFormPartner:focus{
+	border: 1px solid rgba(102,125,243,0.8);
+	box-shadow: 2px 2px rgba(102,125,243,0.3);
+	transition: all 0.2s;
+}
+.btnFormPartner{
+	background-color: #FF4E50;
+	border: none;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.1em;
+	border-radius: 50px;
+	width: 200px;
+}
